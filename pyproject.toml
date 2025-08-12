@@ -12,6 +12,14 @@ replit = "^4.0.0"
 numpy = "^2.1.0"
 requests = "^2.32.3"
 python-dotenv = "^1.0.1"
+cryptography = "^43.0.1"
+moralis = "^0.1.49"
+pyjwt = "^2.9.0"
+plotly = "^5.24.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+rich = "^13.9.3"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md

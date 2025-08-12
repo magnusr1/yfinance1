@@ -1,8 +1,9 @@
 entrypoint = "main.py"
-modules = ["python-3.11"]
+modules = ["python-3.11", "postgresql-16"]
 
 [nix]
 channel = "stable-24_05"
+packages = ["cairo", "cargo", "ffmpeg-full", "freetype", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "libiconv", "libxcrypt", "openssl", "pkg-config", "qhull", "rustc", "tcl", "tk"]
 
 [unitTest]
 language = "python3"
@@ -12,4 +13,4 @@ requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
 run = ["python3", "main.py"]
-deploymentTarget = "cloudrun"
+deploymentTarget = "scheduled"
